@@ -1,0 +1,56 @@
+body {
+  background-position: center;
+  background-image: url(./img/hvan.jpg);
+  background-size: cover;
+  color: aliceblue;
+  text-align: center;
+}
+.one,
+.two {
+  display: flex;
+  margin-bottom: 30px;
+}
+#giadinh,
+#canhan,
+#ttsv,
+#qthd {
+  backdrop-filter: blur(8.5px);
+  align-items: center;
+  text-align: center;
+  color: black;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(226, 222, 222, 0.2);
+}
+#tong1,
+#tong2 {
+  display: flex;
+  text-align: left;
+}
+#canhan,
+#giadinh,
+#ttsv,
+#qthd {
+  padding: 20px;
+  border: 3px solid #000000;
+}
+#canhan,
+#giadinh {
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+}
+#canhan {
+  width: 50vh;
+  margin-left: 30vh;
+  margin-right: 30vh;
+}
+#ttsv {
+  margin-left: 5vh;
+  margin-right: 10vh;
+}
+#canhan:hover,
+#giadinh:hover,
+#ttsv:hover,
+#qthd:hover {
+  transform: scale(1.1); /* Phóng to khối div lên 10% */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0); /* Giữ nguyên bóng đổ */
+}

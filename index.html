@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Sơ Yếu Lý Lịch Sinh Viên</title>
+    <script src="./main.js"></script>
+  </head>
+  <body>
+    <img src="./img/Logo_hoc_vien_ANND.png" alt="logoHVANND" width="15%" />
+    <h1 style="color: black">SƠ YẾU LÝ LỊCH HỌC VIÊN</h1>
+    <hr style="color: black" />
+    <div class="one">
+      <div id="canhan">
+        <h2>I. Bản thân sinh viên</h2>
+        <form style="text-align: left">
+          <label for="name">Họ và tên: </label><br />
+          <input
+            type="text"
+            id="name"
+            name="ten"
+            placeholder="NGUYỄN VĂN A"
+          /><br />
+          <label for="birth">Ngày sinh: </label><br />
+          <input type="date" id="birth" name="ngay" /><br />
+          <label for="gt">Giới tính: </label><br />
+          <select name="gioitinh" id="gt">
+            <option value="gioitinh">Chọn giới tính</option>
+            <option value="nam">Nam</option>
+            <option value="nu">Nữ</option>
+            <option value="khac">Khác</option></select
+          ><br />
+          <label for="quequan">Quê quán: </label><br />
+          <input
+            type="text"
+            id="quequan"
+            name="que"
+            placeholder="Xã-Huyện-Tỉnh"
+          /><br />
+          <label for="ct">Nơi đăng kí thường trú: </label><br />
+          <input
+            type="text"
+            name="noio"
+            id="ct"
+            placeholder="Xã-Huyện-Tỉnh"
+          /><br />
+          <label for="ns">Nơi Sinh: </label><br />
+          <input type="text" id="ns" name="noisinh" placeholder="Tỉnh" /><br />
+          <label for="dt">Dân tộc: </label><br />
+          <input type="text" name="dantoc" id="dt" /><br />
+          <label for="tg">Tôn giáo: </label><br />
+          <input type="text" name="tongiao" id="tg" /><br />
+        </form>
+      </div>
+      <div id="giadinh">
+        <h2>II. Thành Phần gia đình</h2>
+        <div id="tong1">
+          <div id="cha">
+            <h3>1. Cha</h3>
+            <label for="ten">Họ và tên: </label><br />
+            <input
+              type="text"
+              name="name"
+              id="ten"
+              placeholder="NGUYỄN VAN A"
+            /><br />
+            <label for="ns">Ngày sinh</label><br />
+            <input type="date" name="birth" id="ns" /><br />
+            <label for="dc">Địa chỉ: </label><br />
+            <input type="text" name="diachi" id="dc" /><br />
+            <label for="dt">Dân tộc: </label><br />
+            <input type="text" name="dantoc" id="dt" /><br />
+            <label for="tg">Tôn giáo: </label><br />
+            <input type="text" name="tongiao" id="tg" /><br />
+            <label for="ngngh">Nghề nghiệp: </label><br />
+            <input type="text" name="nghenghiep" id="ngngh" /><br />
+            <label for="sdt">SĐT: </label><br />
+            <input type="number" name="sdt" id="sdt" /><br />
+          </div>
+          <div id="me">
+            <h3>2. Mẹ</h3>
+            <label for="ten">Họ và tên: </label><br />
+            <input
+              type="text"
+              name="name"
+              id="ten"
+              placeholder="NGUYỄN VAN A"
+            /><br />
+            <label for="ns">Ngày sinh</label><br />
+            <input type="date" name="birth" id="ns" /><br />
+            <label for="dc">Địa chỉ: </label><br />
+            <input type="text" name="diachi" id="dc" /><br />
+            <label for="dt">Dân tộc: </label><br />
+            <input type="text" name="dantoc" id="dt" /><br />
+            <label for="tg">Tôn giáo: </label><br />
+            <input type="text" name="tongiao" id="tg" /><br />
+            <label for="ngngh">Nghề nghiệp: </label><br />
+            <input type="text" name="nghenghiep" id="ngngh" /><br />
+            <label for="sdt">SĐT: </label><br />
+            <input type="number" name="sdt" id="sdt" /><br />
+          </div>
+          <div id="ace">
+            <h3>3. Anh/chị em ruột</h3>
+            <label for="ten">Họ và tên: </label><br />
+            <input
+              type="text"
+              name="name"
+              id="ten"
+              placeholder="NGUYỄN VAN A"
+            /><br />
+            <label for="ns">Ngày sinh</label><br />
+            <input type="date" name="birth" id="ns" /><br />
+            <label for="dc">Địa chỉ: </label><br />
+            <input type="text" name="diachi" id="dc" /><br />
+            <label for="dt">Dân tộc: </label><br />
+            <input type="text" name="dantoc" id="dt" /><br />
+            <label for="tg">Tôn giáo: </label><br />
+            <input type="text" name="tongiao" id="tg" /><br />
+            <label for="ngngh">Nghề nghiệp: </label><br />
+            <input type="text" name="nghenghiep" id="ngngh" /><br />
+            <label for="sdt">SĐT: </label><br />
+            <input type="number" name="sdt" id="sdt" /><br />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="two">
+      <div id="ttsv" style="text-align: left">
+        <h2>III. Thông tin sinh viên tại trường</h2>
+        <div id="class">
+          <form>
+            <label for="cand">Ngày vào CAND: </label>
+            <input type="date" name="CAND" id="cand" /><br />
+            <label for="lopCA">Lớp: </label>
+            <input type="text" name="lopCA" id="lopCA" /><br />
+            <label for="tenCN">Tên GVCN: </label>
+            <input type="text" name="tenGVCN" id="tenGVCN" /><br />
+            <label for="CV">Chức vụ: </label>
+            <input type="text" name="CV" id="CV" />
+          </form>
+        </div>
+      </div>
+      <div id="qthd">
+        <h2>IV. Quá trình hoạt động của bản thân</h2>
+        <div id="tong2">
+          <div id="ND1">
+            <h3>1.Ngày tháng năm tham gia các tổ chức</h3>
+            <label for="doan">Ngày vào Đoàn: </label>
+            <input type="date" name="doan" id="doan" /><br />
+            <label for="dang">Ngày vào Đảng: </label>
+            <input type="date" name="Dang" id="dang" /><br />
+            <label for="namTN">Năm tốt nghiệp THPT: </label>
+            <input
+              type="number"
+              name="namTN"
+              id="namTN"
+              value="202"
+              placeholder="202x"
+            />
+          </div>
+          <div id="ND2">
+            <h3>2.Quá trình học tập tại bậc THPT</h3>
+            <label for="lop10">Lớp 10:</label>
+            <label for="naml1p">Năm học</label>
+            <input type="number" name="naml10" id="naml10" value="201" />
+            <label for="school1">Tên trường: </label>
+            <input type="text" name="tent" id="tent" /><br />
+            <label for="tent1">Tên tỉnh: </label>
+            <input type="text" name="tent" id="tent" /><br />
+            <label for="lop10">Lớp 11:</label>
+            <label for="naml1p">Năm học</label>
+            <input type="number" name="naml10" id="naml10" value="201" />
+            <label for="school1">Tên trường: </label>
+            <input type="text" name="tent" id="tent" /><br />
+            <label for="tent1">Tên tỉnh: </label>
+            <input type="text" name="tent" id="tent" /><br />
+            <label for="lop10">Lớp 12:</label>
+            <label for="naml1p">Năm học</label>
+            <input type="number" name="naml10" id="naml10" value="201" />
+            <label for="school1">Tên trường: </label>
+            <input type="text" name="tent" id="tent" /><br />
+            <label for="tent1">Tên tỉnh: </label>
+            <input type="text" name="tent" id="tent" /><br />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
